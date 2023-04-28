@@ -1,5 +1,5 @@
 # simple-launchd-template
-Get started quickly with MacOS daemons/agents to run scheduled tasks
+Quickly set up a daemon/agent on macOS to run scheduled tasks
 
 ## Purpose
 Setting up launchd can be tedious. For beginniners, more time is spent toiling with XML files and file paths than programming. This repository provides a lightweight launchd demo to get an initial "cron job" working on your machine, that demonstrates the following automated tasks:

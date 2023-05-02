@@ -13,11 +13,11 @@
         <!-- A command to run a simple Python script -->
         <!-- Param 1: Path to your Python intepreter (run 'which Python' in the terminal) -->
         <!-- Param 2: Path to your Python script (right-click on file + option + copy as pathname) -->
-        <string>{insert path to your python interpreter here (run 'which Python' in the terminal)}</string>
-        <string>{insert path to your Python script here (right-click on sample-script.py + option + copy as pathname)}</string>
+        <string>{insert path to your python interpreter here}</string>
+        <string>{insert path to your Python script here}</string>
     </array>
     
     <key>StartInterval</key>
-    <integer>15</integer>
+    <integer>10</integer>
   </dict>
 </plist>

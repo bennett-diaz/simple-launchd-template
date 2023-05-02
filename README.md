@@ -23,3 +23,4 @@ Note: You can check if the daemon is running using `launchctl list <name of daem
 
 ## References
 https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html#//apple_ref/doc/uid/10000172i-SW1-SW1
+https://opensource.apple.com/source/launchd/launchd-329.3/launchd/doc/sampled.plist.auto.html

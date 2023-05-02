@@ -21,5 +21,5 @@ You can build off of this simple demo for use cases such as:
 Note: You can check if the daemon is running using `launchctl list <name of daemon/agent as specific by label key in p-list file>`.
 
 ## References
-https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html#//apple_ref/doc/uid/10000172i-SW1-SW1
-https://opensource.apple.com/source/launchd/launchd-329.3/launchd/doc/sampled.plist.auto.html
+- https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html#//apple_ref/doc/uid/10000172i-SW1-SW1
+- https://opensource.apple.com/source/launchd/launchd-329.3/launchd/doc/sampled.plist.auto.html

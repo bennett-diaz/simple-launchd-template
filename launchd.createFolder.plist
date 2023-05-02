@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Name of your launchd task. It can be anything you want, but it should be unique. -->
+    <key>Label</key>
+    <string>launchd.createFolder</string>
+    
+    <!-- Optional key to execute the command after bootstrapping. -->
+    <key>RunAtLoad</key>
+    <true/>
+   
+   <!-- These are your command(s) that the launchd task will execute.
+   Functionally the same as running commands in the terminal, but you need to specify the full file path.
+   Each newline in this section is equivalent to a space in the terminal comme line. -->
+   <key>ProgramArguments</key>
+    <array>
+        <!-- A command to create my_new_test_folder on the desktop -->
+        <string>sh</string>
+        <string>-c</string>
+        <string>mkdir ~/Desktop/my_new_test_folder</string>
+    </array>
+    
+    <key>StartInterval</key>
+    <integer>5</integer>
+  </dict>
+</plist>

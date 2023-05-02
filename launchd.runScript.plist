@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>launchd.runScript</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+   
+   <key>ProgramArguments</key>
+    <array>
+        <!-- A command to run a simple Python script -->
+        <!-- Param 1: Path to your Python intepreter (run 'which Python' in the terminal) -->
+        <!-- Param 2: Path to your Python script (right-click on file + option + copy as pathname) -->
+        <string>{insert path to your python interpreter here (run 'which Python' in the terminal)}</string>
+        <string>{insert path to your Python script here (right-click on sample-script.py + option + copy as pathname)}</string>
+    </array>
+    
+    <key>StartInterval</key>
+    <integer>15</integer>
+  </dict>
+</plist>

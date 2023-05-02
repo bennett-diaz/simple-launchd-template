@@ -3,9 +3,9 @@ Quickly set up a daemon/agent on macOS to run scheduled tasks
 
 ## Purpose
 Setting up launchd can be tedious. This repository provides a turnkey launchd demo to get an initial "cron job" working on your machine. The repo demonstrates the following automated tasks:
-- Create a new folder at a 10 second interval
-- Launch an application at a 10 second interval
-- Execute a Python script at a 10 second interval
+- launchd.makeFolder.plist: Creates a new folder at a 5 second interval
+- launchd.launchApplication.plist: Launches an application at a 10 second interval
+- Executes a Python script at a 15 second interval
 
 You can build off of this simple demo for use cases such as:
 - Send email messages at a scheduled time 

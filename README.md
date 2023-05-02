@@ -19,7 +19,7 @@ You can build off of this simple demo for use cases such as:
 4. End the program: `launchctl bootout gui/<user_id> <filepath to p-list file>`
 
 ## Tips
-- You can check your <user_id> using `id -u`.
+- You can check your user_id using `id -u`.
 - You can check if the daemon is running using `launchctl list <name of daemon/agent as specific by label key in p-list file>`.
 
 ## References

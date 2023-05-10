@@ -1,8 +1,8 @@
 # simple-launchd-template
-Quickly set up a daemon/agent on macOS to run scheduled tasks
+Quickly set up a daemon/agent on macOS to run scheduled tasks. Launchd is the recommended solution for MacOS, and is analogous to cron jobs for Linux and Task Scheduler for Windows. 
 
 ## Purpose
-Setting up launchd can be tedious. This repository provides a turnkey launchd demo to get an initial "cron job" working on your machine. The repo demonstrates the following automated tasks:
+Setting up launchd can be tedious. This repository provides a turnkey demo to get an initial launchd task working on your machine. The repo demonstrates the following automated tasks:
 - Create a new folder at a 10 second interval: `launchd.makeFolder.plist`
 - Launch an application at a 20 second interval: `launchd.launchApplication.plist`
 - Execute a Python script at a 10 second interval: `launchd.runScript.plist`

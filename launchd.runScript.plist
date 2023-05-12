@@ -13,7 +13,7 @@
         <!-- A command to run a simple Python script -->
         <!-- Param 1: Path to your Python intepreter (run 'which Python' in the terminal) -->
         <!-- Param 2: Path to your Python script (right-click on file + option + copy as pathname) -->
-        <string>{insert path to your python interpreter here}</string>
+        <string>{insert path to your Python interpreter here}</string>
         <string>{insert path to your Python script here}</string>
     </array>
     
